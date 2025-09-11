@@ -1,5 +1,10 @@
 import React from "react"
-import small_logo from "../assets/images/Logo.svg"
+import small_logo from "../assets/images/littlelemon_logo.png"
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+
+
 
 const Footer = () => {
     return(
@@ -12,12 +17,10 @@ const Footer = () => {
             <div>
                 <h3>Important Links</h3>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">About</a></li>
-                <li><a href="/">Menu</a></li>
+                <li><a href="/">About Us</a></li>
+                <li><a href="/">Contact Us</a></li>
                 <li><a href="/">Reservations</a></li>
                 <li><a href="/">Order Online</a></li>
-                <li><a href="/">Login</a></li>
             </ul>
             </div>
             <div>
@@ -31,9 +34,9 @@ const Footer = () => {
             <div>
                 <h3>Social Media Links</h3>
             <ul>
-                <li><a href="/">Facebook</a></li>
-                <li><a href="/">Instagram</a></li>
-                <li><a href="/">Twitter</a></li>
+                <li><a href="/"><FaFacebook /> Facebook</a></li>
+                <li><a href="/"><FaInstagram /> Instagram</a></li>
+                <li><a href="/"><FaTwitter /> Twitter</a></li>
             </ul>
             </div>
             </section>

@@ -27,7 +27,9 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #000;
+  color: #495e57;
+  font-size: 1.1rem;
+  font-weight: 700;
 }
 
 nav ul li a:hover {
@@ -104,6 +106,14 @@ button {
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff6cb;
+  scale: 1.01;
+  box-shadow: -1px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 17px 0px rgba(0, 0, 0, 0.75);
 }
 
 .banner-img {
@@ -187,8 +197,12 @@ label {
 .menu-items {
   /* height: 400px; */
   width: 350px;
-  background: #a9c8be;
+  background: #495e57;
+  color: #edefee;
   border-radius: 8px;
+  box-shadow: -1px 0px 51px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 0px 51px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 51px 0px rgba(0, 0, 0, 0.75);
 }
 
 .menu-container img {
@@ -214,6 +228,8 @@ label {
 }
 
 footer section {
+  background-color: #495e57;
+  color: #edefee;
   padding: 10px 13%;
   display: flex;
   justify-content: space-between;
@@ -236,10 +252,23 @@ footer h3 {
 
 footer ul {
   padding: 0;
+  font-weight: 600;
 }
 
 footer ul li {
   padding: 8px 0;
+}
+
+footer img {
+  padding: 10px;
+}
+
+footer a {
+  color: #edefee;
+}
+
+footer a:hover {
+  text-decoration: underline solid #ffffff;
 }
 
 @media screen and (max-width: 768px) {

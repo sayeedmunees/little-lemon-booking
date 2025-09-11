@@ -12,4 +12,4 @@ Please note: the only functionality working on this website besides the design i
 
 Here are some screeenshots of the application showcasing the Booking functionality.
 
-![little lemon website table booking](/src/images/github-cover.png)
+![little lemon website table booking](/src/assets/images/github-cover.png)

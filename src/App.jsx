@@ -1,19 +1,17 @@
-import React, { useState } from 'react';
-import Header from './components/Header.jsx';
-import BookingForm from './components/BookingForm.jsx';
-import Confirmation from './components/Confirmation.jsx';
+import React from "react";
+import "./App.css";
+import Nav from "./components/Nav";
+import Body from "./components/Body";
+import Menu from "./components/Menu";
+import Footer from "./components/Footer";
 
 export default function App() {
-  const [booking, setBooking] = useState(null);
-
   return (
-    <div className="app">
-      <Header />
-      {booking ? (
-        <Confirmation booking={booking} />
-      ) : (
-        <BookingForm onConfirm={setBooking} />
-      )}
-    </div>
+    <>
+      <Nav />
+      <Body />
+      <Menu />
+      <Footer />
+    </>
   );
 }

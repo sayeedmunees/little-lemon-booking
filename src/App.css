@@ -130,7 +130,7 @@ button:hover {
 }
 
 form,
-.comfirm {
+.confirm {
   padding: 10px 13%;
 }
 
@@ -164,8 +164,12 @@ label {
   border-radius: 4px;
 }
 
-.comfirm span {
-  color: blue;
+.confirm span {
+  color: #495e57;
+}
+
+#confirm-button:hover {
+  background-color: #3d4a46;
 }
 
 /* menu items */
